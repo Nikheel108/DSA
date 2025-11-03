@@ -44,11 +44,6 @@ void parking_Slot_init() {
 }
 
 void display_parking_Slot() {
-    // cout << "\nSlot: ";
-    // for (int i = 0; i < totalSpots; i++) cout << i+1 << " ";
-    // cout << "\nCar : ";
-    // for (int i = 0; i < totalSpots; i++) cout << parking_Slot[i] << " ";
-
     for (int i = 0; i < totalSpots; i++)
     {
         if(parking_Slot[i] != -1)
